@@ -70,7 +70,7 @@ Como nota, debo comentar que, al tener que cambiar el material de la esfera de l
 
 ## Las ondas al pulsar
 
-En un principio, mi idea era implementar algo similar al último ejemplo que pudimos ver en la sesión práctica, es decir, la onda en el eje Z que realizaba un movimiento sinosuidal. Empecé con una capa por encima de la Tierra que se mostraba en rojo con transparencia e intenté generar ondas centradas en el click, sin embargo, al probar varias implementaciones, no me convencieron los resultados, por lo que decidí realizar algo más sencillo. Al final, decidí implementar unas ondas que utilizaras el Fragment Shader en vez del Vertex Shader y por tanto usaran el color para simular el efecto de ondas expandiéndose desde el marcador en el que se ha hecho click.
+En un principio, mi idea era implementar algo similar al último ejemplo que pudimos ver en la sesión práctica, es decir, la onda en el eje Z que realizaba un movimiento sinosuidal. Empecé con una capa por encima de la Tierra que se mostraba en rojo con transparencia e intenté generar ondas centradas en el click, sin embargo, al probar varias implementaciones, no me convencieron los resultados, por lo que decidí realizar algo más sencillo. Al final, decidí implementar unas ondas que utilizaran el Fragment Shader en vez del Vertex Shader y por tanto usaran el color para simular el efecto de ondas expandiéndose desde el marcador en el que se ha hecho click.
 
 De esta manera, el Vertex Shader vuelve a ser trivial:
 
