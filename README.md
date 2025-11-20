@@ -66,7 +66,7 @@ function volcanicEarthVertex() {
 
 Como nota, debo comentar que, al tener que cambiar el material de la esfera de la Tierra de MeshPhongMaterial a ShaderMaterial, los efectos del BumpMap y el SpecularMap se pierden, así como los otros efectos de luces que se encontraban presentes en la entrega anterior, ya que por sencillez no implementé toda la funcionalidad de luces y sombras en el shader.
 
-![GIF de la textura "volcánica" en la Tierra](examples\volcanic_texture.gif)
+![GIF de la textura "volcánica" en la Tierra](examples/volcanic_texture.gif)
 
 ## Las ondas al pulsar
 
@@ -142,7 +142,7 @@ Los uniforms representan, respectivamente, el tiempo que ha transcurrido (`uTime
 
 Como se puede observar, se calcula el tiempo que ha pasado desde el click, lo cual se utilizará luego para la atenuación de las ondas. Luego, con una duración de 30s desde que se realiza el click, se calcula la distancia (`d`) al centro en coordenadas de la esfera y se establecen los parámetros para las ondas (velocidad, frecuencia, anchura del anillo). Posteriormente, se calcula el efecto de las ondas generándose hacia fuera en círculos concéntricos teniendo en cuenta la componente espacial (`d/wavelength`) y la componente temporal (`timeSince/speed`). A partir del cálculo anterior, generamos el patrón repetitivo de las ondas, que luego se traducirán a las líneas reales visibles. Al final, obtenemos el conjunto completo al tener en cuenta la desaparición de los anillos con el paso del tiempo (`falloff`).
 
-![GIF de los anillos al pulsar un marcador](examples\anillos.gif)
+![GIF de los anillos al pulsar un marcador](examples/anillos.gif)
 
 ## Últimas observaciones
 
@@ -209,7 +209,7 @@ function init(){
 ```
 En el vídeo final, el cual se encuentra en este repositorio y del que dejo un recorte a continuación, se escucha de fondo el sonido que debería escucharse al pulsar en un marcador (en el vídeo lo puse yo manual de manera externa al código).
 
-![Parte del Vídeo final](examples\video_final.gif)
+![Parte del Vídeo final](examples/video_final.gif)
 
 ## Referencias
 
