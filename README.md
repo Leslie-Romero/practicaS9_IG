@@ -209,7 +209,7 @@ function init(){
 ```
 En el vídeo final, el cual se encuentra en este repositorio y del que dejo un recorte a continuación, se escucha de fondo la pista de audio que debería escucharse al pulsar en un marcador (en el vídeo lo puse yo manual de manera externa al código).
 
-![Parte del Vídeo final](examples/video_final.gif)
+![Parte del Vídeo final](examples/video_final_recortado.gif)
 
 ## Referencias
 
