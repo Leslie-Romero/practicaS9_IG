@@ -146,7 +146,7 @@ Como se puede observar, se calcula el tiempo que ha pasado desde el click, lo cu
 
 ## Últimas observaciones
 
-Como última nota, queria comentar que añadí la parte faltante de audio que quise implementar en la práctica anterior pero para lo que no tuve tiempo, sin embargo, parece no funcionar de ninguna manera. Quería comentarlo por dejar constancia de que está implementado, aunque sé que no es parte de esta práctica y por si fuese un problema de mi ordenador el hecho de que no se escuche. Brevemente, la funcionalidad del audio es que, al pulsar una esfera, junto con los efectos visuales, debería escucharse de fondo un sonido de lava.
+Como última nota, queria comentar que añadí la parte faltante de audio que quise implementar en la práctica anterior pero para lo que no tuve tiempo, sin embargo, parece no funcionar de ninguna manera. Quería comentarlo por dejar constancia de que está implementado, aunque sé que no es parte de esta práctica, y por si fuese un problema de mi ordenador el hecho de que no se escuche. Brevemente, la funcionalidad del audio es que, al pulsar una esfera, junto con los efectos visuales, debería escucharse de fondo un sonido de lava.
 
 ```js
 function init(){
@@ -207,7 +207,7 @@ function init(){
     }
 }
 ```
-En el vídeo final, el cual se encuentra en este repositorio y del que dejo un recorte a continuación, se escucha de fondo el sonido que debería escucharse al pulsar en un marcador (en el vídeo lo puse yo manual de manera externa al código).
+En el vídeo final, el cual se encuentra en este repositorio y del que dejo un recorte a continuación, se escucha de fondo la pista de audio que debería escucharse al pulsar en un marcador (en el vídeo lo puse yo manual de manera externa al código).
 
 ![Parte del Vídeo final](examples/video_final.gif)
 
